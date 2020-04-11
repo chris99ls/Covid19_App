@@ -1,4 +1,4 @@
-#Sat Apr 11 13:37:45 CEST 2020
-base.0=/home/christian/Scrivania/development/info_covid/info_covid/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Sat Apr 11 18:36:08 CEST 2020
+base.0=/home/christian/Scrivania/Covid19_App/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

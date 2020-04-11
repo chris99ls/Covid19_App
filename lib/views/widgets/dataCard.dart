@@ -1,17 +1,17 @@
-
 import 'package:flutter/material.dart';
 
 class DataCard extends StatelessWidget {
   
   final String label;
   final String data;
+  final Color color;
 
-  DataCard({@required this.label,@required this.data});
+  DataCard({@required this.label,@required this.data,this.color});
 
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: Colors.amber,
+      color: color,
       child: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Column(

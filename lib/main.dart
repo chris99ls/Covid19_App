@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 activeColor: Colors.white,
                 iconSize: 24,
                 padding: EdgeInsets.symmetric(horizontal: 20, vertical: 7),
-                duration: Duration(milliseconds: 200),
+                duration: Duration(milliseconds: 300),
                 tabBackgroundColor: Colors.blueGrey,
                 tabs: [
                   GButton(
