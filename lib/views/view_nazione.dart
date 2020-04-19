@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:info_covid/dato_nazionale.dart';
 import 'package:info_covid/fetch_data.dart';
 import 'package:http/http.dart' as http;
+import 'models/dato_nazionale.dart';
 import 'widgets/cardRow.dart';
 
 //* DATI NAZIONALI VIEW *//

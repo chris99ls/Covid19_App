@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:info_covid/views/models/dato_nazionale.dart';
 
-import '../../dato_nazionale.dart';
 import 'dataCard.dart';
 
 class CardRow extends StatelessWidget {
-  final List<DatoNazionale> dati;
+  final List<dynamic> dati;
   CardRow({Key key, this.dati}) : super(key: key);
 
   String getNuoviCasi_Nazionali(List<DatoNazionale> dati) {
